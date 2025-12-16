@@ -1,0 +1,96 @@
+body
+{
+    background-color: cornsilk;
+}
+
+.box
+{
+    width: 500px;
+     background-image:url(1.png);
+    color:rgb(53, 3, 53);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-size: cover;
+    background-position: center;
+    border: inset 5px rgb(23, 80, 120);
+    border-radius: 12px;
+    padding: 30px;
+    margin: 40px auto;
+}
+hr
+{
+    height: 5px;
+    background-color: black;
+}
+h2
+{
+    color:rgb(145, 37, 37);
+    text-align: center;
+    font-size: 25px;
+}
+
+.highlight
+{
+    background-color:darksalmon;
+    font-weight: bold;
+}
+
+.quote
+{
+    background-color:rgb(156, 178, 114) ; ;
+    padding: 15px;
+    border-left: 5px solid brown;
+    text-align: center;
+    font-style: italic;
+    margin: 20px ;
+    border-radius: 5px;
+}
+
+.author
+{
+    display: flex;
+    gap: 15px;
+    background-color:rgb(59, 5, 106);
+    padding: 15px;
+    border: dotted 3px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.authorimg
+{
+    width: 110px;
+    height: 150px;
+    border: inset 2px;
+    border-radius: 5px;
+    object-fit: cover;
+}
+
+.authorinfo
+{
+    flex: 1;
+    background-color: lightgoldenrodyellow;
+    color: darkred;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.bottom
+{
+    margin-top: 30px;
+    background-color: darkkhaki;
+    color: rgb(232, 63, 63);
+    padding: 12px 20px;
+    border-top: 50px;
+    border-radius: 6px;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+}
+footer
+{
+    background-color: blueviolet;
+    text-align: center;
+    color: white;
+    height: 25px;
+    font-size: larger;
+}
